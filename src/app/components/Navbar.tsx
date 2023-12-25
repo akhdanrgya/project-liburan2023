@@ -1,9 +1,11 @@
 "use client";
 import Link from "next/link";
 import { useState, useEffect } from "react";
+import { useRouter } from "next/navigation";
 
 const Navbar2 = () => {
   const [header, setHeader] = useState(false);
+  const router = useRouter()
 
   const scrollHeader = () => {
     if (window.scrollY >= 20) {
@@ -34,7 +36,7 @@ const Navbar2 = () => {
                 <Link href="">About</Link>
               </li>
               <li>
-                <Link href="">Dashboard</Link>
+                <Link href="/dashboard">Dashboard</Link>
               </li>
               <li>
                 <Link href="">Services</Link>

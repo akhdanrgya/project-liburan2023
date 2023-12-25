@@ -2,7 +2,7 @@ import Navbar from "./components/Navbar";
 
 const Home = () => {
   return (
-    <div>
+    <div className="header">
       <Navbar />
       <div className="h-[100vh] flex justify-center items-center flex-col text-center">
         <h2 className="text-[28px] font-bold mb-[25px]">
@@ -16,7 +16,7 @@ const Home = () => {
         </button>
       </div>
 
-      <div>
+      <div className="bg-[white] text-[black] p-10 h-screen">
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
