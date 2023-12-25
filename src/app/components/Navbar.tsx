@@ -1,11 +1,9 @@
 "use client";
 import Link from "next/link";
 import { useState, useEffect } from "react";
-import { useRouter } from "next/navigation";
 
-const Navbar2 = () => {
+const Navbar = () => {
   const [header, setHeader] = useState(false);
-  const router = useRouter()
 
   const scrollHeader = () => {
     if (window.scrollY >= 20) {
@@ -26,7 +24,7 @@ const Navbar2 = () => {
     <div className={header ? "fixed w-[100%] bg-[white] text-[black]" : "bg-[transparent]"}>
       <div className="header flex w-[80%] justify-between m-auto py-[15px]">
         <div className="logo">
-          <h2>Gokilkacau</h2>
+          <Link href="/">Gokilkacau</Link>
         </div>
 
         <div className="menu">
@@ -52,4 +50,4 @@ const Navbar2 = () => {
   );
 };
 
-export default Navbar2;
+export default Navbar;
