@@ -3,7 +3,6 @@ const prisma = new PrismaClient()
 
 const getProduct = async() => {
   const res = await prisma.product.findMany()
-  
   return res
 }
 
