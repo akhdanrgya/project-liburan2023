@@ -68,7 +68,7 @@ const Nav = () => {
           About
         </Link>
         <Link
-          href="#"
+          href="#product"
           className="text-sm font-semibold leading-6 text-gray-900"
         >
           Product

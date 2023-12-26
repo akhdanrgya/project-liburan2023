@@ -1,4 +1,4 @@
-
+import ProductCard from "@/components/card/ProductCard";
 import Hero from "@/components/Hero";
 
 const Home = () => {
@@ -7,7 +7,7 @@ const Home = () => {
     <Hero/>
 
     <div className="h-screen p-10">
-      <p>Ini nanti buat catalog</p>
+      <ProductCard/>
     </div>
     </div>
   );
