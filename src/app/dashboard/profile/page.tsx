@@ -1,15 +1,14 @@
 import Sidebar from "@/components/dashboard/Sidebar"
 
-
-const dashboard = () => {
+const Profile = () => {
     return(
         <div className="flex">
             <Sidebar/>
             <h1>
-                Dashboard Page
+                Profile Page
             </h1>
         </div>
     )
 }
 
-export default dashboard
+export default Profile
