@@ -1,4 +1,4 @@
-import Navbar from "../../components/Navbar"
+
 import Nav from "@/components/Nav"
 
 const dashboard = () => {
