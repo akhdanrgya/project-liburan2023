@@ -7,7 +7,6 @@ const Product = () => {
       <Sidebar />
 
       <div className="flex-col">
-        <Test/>
         <AddProduct/>
       </div>
     </div>
